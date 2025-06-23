@@ -85,8 +85,7 @@ int print_str(va_list args)
 int _printf(const char *format, ...)
 {
 	va_list args;
-	int count = 0;
-	size_t i;
+	int count = 0, i;
 
 	if (!format)
 		return (-1);
@@ -104,6 +103,7 @@ int _printf(const char *format, ...)
 				count += print_str(args);
 				break;
 			case 'd':
+			case 'i':
 				count += print_int(args);
 				break;
 			case '%':
