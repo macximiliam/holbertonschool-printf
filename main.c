@@ -35,5 +35,7 @@ int main(void)
 	_printf("Len:[%d]\n", len);
 	printf("Len:[%d]\n", len2);
 
+	_printf("hello %s\n", "world", 1, 2, 3, 4);
+	
 	return (0);
 }

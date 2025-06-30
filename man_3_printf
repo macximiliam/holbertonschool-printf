@@ -68,7 +68,7 @@ _printf("Value: %i\n", -42);
 .EE
 
 .SH AUTHORS
-Written by Alexander Zuleta G. and Ivan Barbosa.
+Written by Alexander Zuleta G.
 
 .SH SEE ALSO
 .BR printf (3),
