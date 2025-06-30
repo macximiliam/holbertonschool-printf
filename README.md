@@ -100,4 +100,3 @@ char    str   int    '%'
 ## Created By
 
 * Alexander Zuleta G.
-* Ivan Barbosa
